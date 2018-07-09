@@ -1,0 +1,32 @@
+{
+  "name": "assassin",
+  "version": "0.0.1",
+  "description": "The sy4 executer",
+  "main": "index.js",
+  "directories": {
+    "lib": "lib",
+    "test": "test"
+  },
+  "dependencies": {},
+  "devDependencies": {
+    "chai": "^4.1.2",
+    "mocha": "^5.2.0",
+    "nyc": "^12.0.2"
+  },
+  "scripts": {
+    "test": "nyc mocha"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/altprac/assassin.git"
+  },
+  "keywords": [
+    "sy4"
+  ],
+  "author": "Charles Condon",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/altprac/assassin/issues"
+  },
+  "homepage": "https://github.com/altprac/assassin#readme"
+}

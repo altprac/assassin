@@ -1,7 +1,7 @@
 'use strict;'
 /*
 assassin executes sy4
-acions are defined in lib
+actions are defined in lib
 */
 
 //import libraries

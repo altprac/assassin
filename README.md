@@ -16,7 +16,7 @@ const assassin = require('assassin');
 // create asynch with defaults
 const asynch = assassin();
 // create synch with defaults
-const asynch = assassin(false);
+const synch = assassin(false);
 // create custom evaluation functions
 const extensions = {
     '++': (a => a++), // new '++' operator
